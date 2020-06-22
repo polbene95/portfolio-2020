@@ -1,0 +1,130 @@
+@include media-md {
+
+    .home__me__name {
+        border: none;
+    } 
+
+    .home__links {
+        flex-direction: row;
+    }
+
+    header {
+        height: 10%;
+    }
+
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .nav {
+        visibility: visible;
+        border-bottom: 3px solid $white;
+        background: $black;
+        height: 10%;
+
+        .menu-nav {
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            background: transparent;
+            text-align: right;
+
+            &__item {
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+            &__link {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .projects {
+        justify-content: flex-end;
+        height: 100%;
+        h3 {
+            display: none;
+        }
+
+        &__wraper {
+            height: 90%;
+        }
+        .projects__list {
+            padding: 0;
+            align-items: flex-end;
+        }
+    }
+
+    .contact__links {
+        flex-wrap: wrap;
+        flex-direction: row;
+        &__item {
+            flex-direction: column;
+            width: 50%;
+        }
+    }
+}
+
+@include media-lg {
+
+    .projects__wraper {
+        width: 80%;
+        height: 90%;
+    }
+
+    .contact__links {
+        &__item {
+            width: 25%;
+        }
+    }
+}
+
+@include media-xl {
+
+    .projects__wraper {
+        width: 65%;
+        height: 90%;
+    }
+
+    .projects__list__item {
+        width: 500px;
+        height: 580px;
+    }
+}
+
+@include media-xxl {
+
+    .menu-nav {
+        max-width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1%;
+    }
+
+    .projects__wraper {
+        width: 65%;
+        height: 90%;
+    }
+
+    .projects__list__item {
+        width: 500px;
+        height: 580px;
+    }
+
+    
+    .home {
+
+        flex-direction: row;
+        justify-content: center;
+
+        &__me {
+            width: 40%;
+        }
+
+        &__links {
+            width: 25%;
+            flex-direction: column;
+        }
+    }
+}
