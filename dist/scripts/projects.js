@@ -141,7 +141,10 @@ const ProjectCard = ({
 const generateProjectsList = () => {
     let template = ``;
     projectsList.forEach(item => template += ProjectCard(item))
-    document.querySelector('.projects__list').innerHTML = template;
+    setTimeout(() => {
+        document.querySelector('.projects__list').innerHTML = template;
+    }, 1000)
+    
 }
 
 generateProjectsList();
