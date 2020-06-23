@@ -23,7 +23,16 @@ const projectsList = [
         description: 'Back-end Application',
         preview: null,
         github: 'https://github.com/polbene95/Product-Manager-API---Deno',
-        techs: ['Deno.js', 'Typescript', 'PostgreSQL', 'Javascript', 'REST APIs']
+        techs: ['Deno.js', 'Typescript', 'Oak', 'PostgreSQL', 'Javascript', 'REST APIs']
+        
+    },
+    {
+        name: 'Real Time Chat',
+        img: './img/deno-chat.png',
+        description: 'Full Stack Application',
+        preview: null,
+        github: 'https://github.com/polbene95/Real-Time-Chat---Deno',
+        techs: ['Deno.js', 'Javascript', 'CSS 3', 'HTML 5', 'WebSockets']
         
     },
     {
