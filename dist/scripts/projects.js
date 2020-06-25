@@ -27,6 +27,15 @@ const projectsList = [
         
     },
     {
+        name: 'StoryBooks',
+        img: './img/storybooks.png',
+        description: 'Full Stack Application',
+        preview: 'http://storybooks-polbne95.herokuapp.com/dashboard',
+        github: 'https://github.com/polbene95/StoryBooks',
+        techs: ['Node.js', 'Javascript', 'Passport', 'CSS 3', 'HTML 5','Handlebars' ,'MongoDB', 'Mongoose',  ]
+        
+    },
+    {
         name: 'Real Time Chat',
         img: './img/deno-chat.png',
         description: 'Full Stack Application',
