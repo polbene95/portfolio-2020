@@ -39,7 +39,7 @@ const projectsList = [
         name: 'Real Time Chat',
         img: './img/deno-chat.png',
         description: 'Full Stack Application',
-        preview: null,
+        preview: 'https://deno-chat-polbene95.herokuapp.com/',
         github: 'https://github.com/polbene95/Real-Time-Chat---Deno',
         techs: ['Deno.js', 'Javascript', 'CSS 3', 'HTML 5', 'WebSockets']
         
