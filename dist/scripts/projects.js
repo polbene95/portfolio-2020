@@ -9,12 +9,12 @@ const projectsList = [
         
     },
     {
-        name: 'Weather App',
-        img: './img/weather-app-2.png',
-        description: 'Server Less Application',
-        preview: 'https://polbene95.github.io/weatherApp/',
-        github: 'https://github.com/polbene95/weatherApp',
-        techs: ['CSS 3', 'HTML 5', 'Javascript', 'Firebase']
+        name: 'coindex',
+        img: './img/model-2.jpg',
+        description: 'Node CLI Application',
+        preview: null,
+        github: 'https://github.com/polbene95/coindex---NodeCLI',
+        techs: ['Node.js', 'Javascript', 'Commander', 'CMD']
         
     },
     {
@@ -87,6 +87,15 @@ const projectsList = [
         preview: null,
         github: 'https://github.com/polbene95/User-Creator',
         techs: ['EJS', 'Javascript', 'Express.js', 'Mongoose', 'MongoDB', 'Passport']
+        
+    },
+    {
+        name: 'Weather App',
+        img: './img/weather-app-2.png',
+        description: 'Server Less Application',
+        preview: 'https://polbene95.github.io/weatherApp/',
+        github: 'https://github.com/polbene95/weatherApp',
+        techs: ['CSS 3', 'HTML 5', 'Javascript', 'Firebase']
         
     },
     {
